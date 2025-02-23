@@ -11180,7 +11180,7 @@ amp-selector [option][selected] {
         
         /*** end css template ***/ /*** start css site ***/
         
-       body {
+   body {
     --main-color-1: #343a40;
     --main-bg-color: #fff;
     --main-tx-color-1: #343a40;
@@ -11195,7 +11195,7 @@ amp-selector [option][selected] {
     --title-1-desktop: 47px 'Archivo', sans-serif;
     --title-1-mobile: 35px 'Archivo', sans-serif;
     --title-2-desktop: 37px 'Archivo', sans-serif;
-    --title-2-mobile: 26px 'Archivo', sans-serif;
+    --title-2-mobile: 24px 'Archivo', sans-serif;
     --title-3-desktop: 30px 'Archivo', sans-serif;
     --title-3-mobile: 27px 'Archivo', sans-serif;
     --title-4-desktop: 16px 'Archivo', sans-serif;
@@ -11210,7 +11210,7 @@ amp-selector [option][selected] {
     --text-4-mobile: 14px 'Inter', sans-serif;
     font-size: var(--font-size);
     position: var(--position);
-    --var-navbar-padding: 13px;
+    --var-navbar-padding: 22px;
     --mobile-navbar-bg-color: #10323f;
     --navbar-2nd-bg-color: rgb(16, 50, 63);
     --drop-navbar-bg-color: var(--mobile-navbar-bg-color)
@@ -11228,18 +11228,12 @@ a,b,h1,h2,h3,h4,h5,h6,li,p,span {
     margin: 10px auto
 }
 
+::placeholder {
+    font-weight: light
+}
         /*** end css site ***/ 
         
         
         /** start your css here **/ 
 
 
-@media only screen and (min-width: 768px) {
-    .bg-desk-gr-mob-wh {background-color:rgb(231,255,245); min-height: 800px;}
-   .mart-desk-100-m-n500 {margin-top: 100px;}
-}
-
-@media only screen and (max-width: 767px) {
-    .bg-desk-gr-mob-wh {background-color:rgb(255,255,255); }
-    .mart-desk-100-m-n500 {margin-top: -500px;}
-}
