@@ -11180,7 +11180,7 @@ amp-selector [option][selected] {
         
         /*** end css template ***/ /*** start css site ***/
         
-   body {
+body {
     --main-color-1: #343a40;
     --main-bg-color: #fff;
     --main-tx-color-1: #343a40;
@@ -11194,10 +11194,10 @@ amp-selector [option][selected] {
     --main-btn-radius: 30px;
     --title-1-desktop: 47px 'Archivo', sans-serif;
     --title-1-mobile: 35px 'Archivo', sans-serif;
-    --title-2-desktop: 37px 'Archivo', sans-serif;
+    --title-2-desktop: 34px 'Archivo', sans-serif;
     --title-2-mobile: 24px 'Archivo', sans-serif;
-    --title-3-desktop: 30px 'Archivo', sans-serif;
-    --title-3-mobile: 27px 'Archivo', sans-serif;
+    --title-3-desktop: 24px 'Archivo', sans-serif;
+    --title-3-mobile: 22px 'Archivo', sans-serif;
     --title-4-desktop: 16px 'Archivo', sans-serif;
     --title-4-mobile: 16px 'Archivo', sans-serif;
     --text-1-desktop: 20px 'Inter', sans-serif;
@@ -11213,7 +11213,7 @@ amp-selector [option][selected] {
     --var-navbar-padding: 22px;
     --mobile-navbar-bg-color: #10323f;
     --navbar-2nd-bg-color: rgb(16, 50, 63);
-    --drop-navbar-bg-color: var(--mobile-navbar-bg-color)
+    --drop-navbar-bg-color: var(--mobile-navbar-bg-color);
 }
 
 .btn {
@@ -11230,6 +11230,26 @@ a,b,h1,h2,h3,h4,h5,h6,li,p,span {
 
 ::placeholder {
     font-weight: light
+}
+
+.pad70d40m-0 {
+    padding: 70px 0
+}
+
+@media only screen and (min-width:769px) {
+    .marbd20 {
+        margin-bottom: 20px
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .nav-3 {
+        display: none
+    }
+
+    .pad70d40m-0 {
+        padding: 40px 0
+    }
 }
         /*** end css site ***/ 
         
