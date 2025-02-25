@@ -11179,7 +11179,6 @@ amp-selector [option][selected] {
         
         
         /*** end css template ***/ /*** start css site ***/
-        
 body {
     --main-color-1: #343a40;
     --main-bg-color: #fff;
@@ -11192,22 +11191,22 @@ body {
     --title-font: 'Julius Sans One', sans-serif;
     --text-font: 'roboto', sans-serif;
     --main-btn-radius: 30px;
-    --title-1-desktop: 47px 'Archivo', sans-serif;
-    --title-1-mobile: 35px 'Archivo', sans-serif;
-    --title-2-desktop: 34px 'Archivo', sans-serif;
-    --title-2-mobile: 24px 'Archivo', sans-serif;
-    --title-3-desktop: 24px 'Archivo', sans-serif;
-    --title-3-mobile: 22px 'Archivo', sans-serif;
-    --title-4-desktop: 16px 'Archivo', sans-serif;
-    --title-4-mobile: 16px 'Archivo', sans-serif;
-    --text-1-desktop: 20px 'Inter', sans-serif;
-    --text-1-mobile: 16px 'Inter', sans-serif;
-    --text-2-desktop: 18px 'Inter', sans-serif;
-    --text-2-mobile: 14px 'Inter', sans-serif;
-    --text-3-desktop: 16px 'Inter', sans-serif;
-    --text-3-mobile: 14px 'Inter', sans-serif;
-    --text-4-desktop: 14px 'Inter', sans-serif;
-    --text-4-mobile: 14px 'Inter', sans-serif;
+    --title-1-desktop: 47px 'Montserrat', sans-serif;
+    --title-1-mobile: 35px 'Montserrat', sans-serif;
+    --title-2-desktop: 34px 'Montserrat', sans-serif;
+    --title-2-mobile: 24px 'Montserrat', sans-serif;
+    --title-3-desktop: 24px 'Montserrat', sans-serif;
+    --title-3-mobile: 22px 'Montserrat', sans-serif;
+    --title-4-desktop: 16px 'Montserrat', sans-serif;
+    --title-4-mobile: 16px 'Montserrat', sans-serif;
+    --text-1-desktop: 20px 'Montserrat', sans-serif;
+    --text-1-mobile: 16px 'Montserrat', sans-serif;
+    --text-2-desktop: 18px 'Montserrat', sans-serif;
+    --text-2-mobile: 14px 'Montserrat', sans-serif;
+    --text-3-desktop: 16px 'Montserrat', sans-serif;
+    --text-3-mobile: 14px 'Montserrat', sans-serif;
+    --text-4-desktop: 14px 'Montserrat', sans-serif;
+    --text-4-mobile: 14px 'Montserrat', sans-serif;
     font-size: var(--font-size);
     position: var(--position);
     --var-navbar-padding: 22px;
@@ -11220,7 +11219,6 @@ body {
     background-color: #ff8c00;
     color: #fff;
     border-radius: 25px;
-    text-transform: uppercase;
     padding: 10px 40px
 }
 
