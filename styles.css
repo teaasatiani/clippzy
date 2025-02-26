@@ -11234,6 +11234,8 @@ a,b,h1,h2,h3,h4,h5,h6,li,p,span {
     padding: 70px 0
 }
 
+.leftcenter {text-align: left;}
+
 @media only screen and (min-width:769px) {
     .marbd20 {
         margin-bottom: 20px
@@ -11248,6 +11250,7 @@ a,b,h1,h2,h3,h4,h5,h6,li,p,span {
     .pad70d40m-0 {
         padding: 40px 0
     }
+    .leftcenter {text-align: center;}
 }
         /*** end css site ***/ 
         
