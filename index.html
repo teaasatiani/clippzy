@@ -396,7 +396,7 @@
                                     aria-label="name"
                                     placeholder="Name"
                                     class="display-text-3"
-                                    style="cursor: pointer; font-weight: 300; background-color: rgb(67, 67, 67); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
+                                    style="cursor: pointer; font-weight: 300; background-color: rgba(67, 67, 67, 0.5); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
          
                       
                               <label id="email" class="display-text-3" style="color: white">Email</label>
@@ -408,7 +408,7 @@
                                     aria-label="email"
                                     placeholder="Email"
                                     class="display-text-3"
-                                    style="cursor: pointer; font-weight: 300; background-color: rgb(67, 67, 67); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
+                                    style="cursor: pointer; font-weight: 300; background-color: rgba(67, 67, 67, 0.5); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
  
                               <label id="number" class="display-text-3" style="color: white">Number</label>
                                 <input
@@ -419,7 +419,7 @@
                                     aria-label="number"
                                     placeholder="Phone Number"
                                     class="display-text-3"
-                                 style="cursor: pointer; font-weight: 300; background-color: rgb(67, 67, 67); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
+                                 style="cursor: pointer; font-weight: 300; background-color: rgba(67, 67, 67, 0.5); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
            
                                 <label id="purpose" class="display-text-3" style="color: white">Purpose for contact</label>
                                  <input
@@ -430,7 +430,7 @@
                                     aria-label="Purpose for contact" 
                                     placeholder="Purpose for contact" 
                                     class="display-text-3" 
-                                    style="cursor: pointer; font-weight: 300; background-color: rgb(67, 67, 67); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
+                                    style="cursor: pointer; font-weight: 300; background-color: rgba(67, 67, 67, 0.5); color: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(203, 214, 226); box-sizing: border-box; margin: 1% 0px; border-radius: 8px;">
          
                                 <button type="submit" value="Submit" class="btn btn-2 w-full display-text-3" style="font-weight: 500; text-align: center; margin-top: 20px; margin-bottom: 0px;">GET IN TOUCH <i class="fas fa-arrow-right" style="font-size: 16px; display: inline-block;"></i></button>
       
@@ -479,9 +479,10 @@
    <button on="tap:my-notification.dismiss" style="margin-left: 5px; background-color:#fff;border:none; line-height:20px;">I accept</button>
   </amp-user-notification>
 
-    <button data-mydop-background-color="" id="scrollToTopButton" on="tap:top-page.scrollTo(duration=800)" class="btn" style="background-color:#000; text-align:center; border-radius:20em;padding:10px;" aria-label="scrolltotop">
-      <amp-img width="30" height="30" layout="fixed" src="https://cdn.dopweb.com/master/angle-double-up-solid.svg" alt="arrow up"></amp-img>
-    </button>
+ 
+  <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=800)" class="shadow" style="background-color: #fff; text-align: center; padding: 20px;" aria-label="scrolltotop">
+   <p style="background-color: #FE8100; border-radius: 25px; padding: 15px; color: #fff" class="display-text-3 mar0"  href="#10">Contact Us</p>
+  </button>
 
  </body>
 </html>
