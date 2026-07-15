@@ -8864,7 +8864,7 @@
             top: 100px;
         }
 
-        .cardheight {min-height: 170px;}
+        .cardheight {min-height: 100px;}
 
         .hideondesktop {display:none}
     }
