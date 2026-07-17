@@ -4444,55 +4444,226 @@
         position: static;
         width: auto;
     }
-    @font-face {
-        font-family: "Font Awesome 5 Brands";
-        font-style: normal;
-        font-weight: 400;
-        font-display: block;
-        src: url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-brands-400.eot);
-        src:
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-brands-400.eot?#iefix)
-                format("embedded-opentype"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-brands-400.woff2) format("woff2"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-brands-400.woff) format("woff"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-brands-400.ttf) format("truetype"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-brands-400.svg#fontawesome) format("svg");
-    }
-    .fab {
-        font-family: "Font Awesome 5 Brands";
-    }
-    @font-face {
-        font-family: "Font Awesome 5 Free";
-        font-style: normal;
-        font-weight: 400;
-        font-display: block;
-        src: url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-regular-400.eot);
-        src:
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-regular-400.eot?#iefix)
-                format("embedded-opentype"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-regular-400.woff2) format("woff2"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-regular-400.woff) format("woff"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-regular-400.ttf) format("truetype"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-regular-400.svg#fontawesome) format("svg");
-    }
-    .far {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 400;
-    }
-    @font-face {
-        font-family: "Font Awesome 5 Free";
-        font-style: normal;
-        font-weight: 900;
-        font-display: block;
-        src: url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-solid-900.eot);
-        src:
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-solid-900.eot?#iefix)
-                format("embedded-opentype"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-solid-900.woff2) format("woff2"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-solid-900.woff) format("woff"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-solid-900.ttf) format("truetype"),
-            url(https://use.fontawesome.com/releases/v5.12.0/webfonts/fa-solid-900.svg#fontawesome) format("svg");
-    }
+   
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBoldCondensed.eot');
+    src: local('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/Helvetica Neue Condensed Bold'), local('HelveticaNeueBoldCondensed'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBoldCondensed.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBoldCondensed.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBlackCondensed.eot');
+    src: local('Helvetica Neue Condensed Black'), local('HelveticaNeueBlackCondensed'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBlackCondensed.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBlackCondensed.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueBlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Bold.eot');
+    src: local('HelveticaNeueCyr-Bold'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Light.eot');
+    src: local('HelveticaNeueCyr-Light'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Medium.eot');
+    src: local('HelveticaNeueCyr-Medium'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-MediumItalic.eot');
+    src: local('HelveticaNeueCyr-MediumItalic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-MediumItalic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-MediumItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-LightItalic.eot');
+    src: local('HelveticaNeueCyr-LightItalic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-LightItalic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-LightItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-HeavyItalic.eot');
+    src: local('HelveticaNeueCyr-HeavyItalic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-HeavyItalic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-HeavyItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Black.eot');
+    src: local('HelveticaNeueCyr-Black'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Black.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Black.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Heavy.eot');
+    src: local('HelveticaNeueCyr-Heavy'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Heavy.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Heavy.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Italic.eot');
+    src: local('HelveticaNeueCyr-Italic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Italic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Italic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Roman.eot');
+    src: local('HelveticaNeueCyr-Roman'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BlackItalic.eot');
+    src: local('HelveticaNeueCyr-BlackItalic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BlackItalic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BlackItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLightItalic.eot');
+    src: local('HelveticaNeueCyr-UltraLightItalic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLightItalic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLightItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BoldItalic.eot');
+    src: local('HelveticaNeueCyr-BoldItalic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BoldItalic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BoldItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-ThinItalic.eot');
+    src: local('HelveticaNeueCyr-ThinItalic'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-ThinItalic.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-ThinItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLight.eot');
+    src: local('HelveticaNeueCyr-UltraLight'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLight.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLight.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Thin.eot');
+    src: local('HelveticaNeueCyr-Thin'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Thin.woff2') format('woff2'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Thin.woff') format('woff'),
+        url('https://raw.githubusercontent.com/teaasatiani/clippzy/main/fonts/HelveticaNeueCyr-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
     .fa,
     .fas {
         font-family: "Font Awesome 5 Free";
@@ -8656,25 +8827,25 @@
         --navbar-tx-color: #343a40;
         --footer-bg-color: #fff;
         --footer-tx-color: #343a40;
-        --title-font: "Julius Sans One", sans-serif;
+        --title-font: "HelveticaNeueCyr", sans-serif;
         --text-font: "roboto", sans-serif;
         --main-btn-radius: 30px;
-        --title-1-desktop: 68px "Roboto", sans-serif;
-        --title-1-mobile: 40px "Roboto", sans-serif;
-        --title-2-desktop: 82px "Roboto", sans-serif;
-        --title-2-mobile: 40px "Roboto", sans-serif;
-        --title-3-desktop: 56px "Roboto", sans-serif;
-        --title-3-mobile: 40px "Roboto", sans-serif;
-        --title-4-desktop: 16px "Roboto", sans-serif;
-        --title-4-mobile: 20px "Roboto", sans-serif;
-        --text-1-desktop: 16px "Roboto", sans-serif;
-        --text-1-mobile: 18px "Roboto", sans-serif;
-        --text-2-desktop: 18px "Roboto", sans-serif;
-        --text-2-mobile: 18px "Roboto", sans-serif;
-        --text-3-desktop: 16px "Roboto", sans-serif;
-        --text-3-mobile: 16px "Roboto", sans-serif;
-        --text-4-desktop: 32px "Roboto", sans-serif;
-        --text-4-mobile: 32px "Roboto", sans-serif;
+        --title-1-desktop: 68px "HelveticaNeueCyr", sans-serif;
+        --title-1-mobile: 40px "HelveticaNeueCyr", sans-serif;
+        --title-2-desktop: 82px "HelveticaNeueCyr", sans-serif;
+        --title-2-mobile: 40px "HelveticaNeueCyr", sans-serif;
+        --title-3-desktop: 56px "HelveticaNeueCyr", sans-serif;
+        --title-3-mobile: 40px "HelveticaNeueCyr", sans-serif;
+        --title-4-desktop: 16px "HelveticaNeueCyr", sans-serif;
+        --title-4-mobile: 20px "HelveticaNeueCyr", sans-serif;
+        --text-1-desktop: 16px "HelveticaNeueCyr", sans-serif;
+        --text-1-mobile: 18px "HelveticaNeueCyr", sans-serif;
+        --text-2-desktop: 18px "HelveticaNeueCyr", sans-serif;
+        --text-2-mobile: 18px "HelveticaNeueCyr", sans-serif;
+        --text-3-desktop: 16px "HelveticaNeueCyr", sans-serif;
+        --text-3-mobile: 16px "HelveticaNeueCyr", sans-serif;
+        --text-4-desktop: 32px "HelveticaNeueCyr", sans-serif;
+        --text-4-mobile: 32px "HelveticaNeueCyr", sans-serif;
         font-size: var(--font-size);
         position: var(--position);
         --var-navbar-padding: 14px;
