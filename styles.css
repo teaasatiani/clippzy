@@ -4445,7 +4445,7 @@
         width: auto;
     }
 
-    
+
 @font-face {
         font-family: "Font Awesome 5 Brands";
         font-style: normal;
@@ -8665,11 +8665,11 @@
         --text-font: "roboto", sans-serif;
         --main-btn-radius: 30px;
         --title-1-desktop: 68px "roboto", sans-serif;
-        --title-1-mobile: 40px "roboto", sans-serif;
+        --title-1-mobile: 30px "roboto", sans-serif;
         --title-2-desktop: 82px "roboto", sans-serif;
-        --title-2-mobile: 40px "roboto", sans-serif;
+        --title-2-mobile: 30px "roboto", sans-serif;
         --title-3-desktop: 56px "roboto", sans-serif;
-        --title-3-mobile: 40px "roboto", sans-serif;
+        --title-3-mobile: 30px "roboto", sans-serif;
         --title-4-desktop: 16px "roboto", sans-serif;
         --title-4-mobile: 20px "roboto", sans-serif;
         --text-1-desktop: 16px "roboto", sans-serif;
