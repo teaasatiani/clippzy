@@ -8679,7 +8679,7 @@
         --text-3-desktop: 16px "roboto", sans-serif;
         --text-3-mobile: 16px "roboto", sans-serif;
         --text-4-desktop: 32px "roboto", sans-serif;
-        --text-4-mobile: 32px "roboto", sans-serif;
+        --text-4-mobile: 22px "roboto", sans-serif;
         font-size: var(--font-size);
         position: var(--position);
         --var-navbar-padding: 14px;
@@ -8908,4 +8908,5 @@
 
 
     } 
+
 
